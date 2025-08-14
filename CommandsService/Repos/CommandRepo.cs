@@ -2,7 +2,7 @@
 using CommandsService.Models;
 using CommandsService.Repos;
 
-namespace CommandService.Data
+namespace CommandsService.Data
 {
     public class CommandRepo : ICommandRepo
     {

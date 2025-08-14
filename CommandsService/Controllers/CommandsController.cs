@@ -1,5 +1,5 @@
 using AutoMapper;
-using CommandService.Dtos;
+using CommandsService.Dtos;
 using CommandsService.Models;
 using CommandsService.Repos;
 using Microsoft.AspNetCore.Mvc;
@@ -9,14 +9,14 @@ namespace CommandsService.Controllers
 {
     [Route("api/c/platforms/{platformId}/[controller]")]
     [ApiController]
-    public class CommandsController: ControllerBase
+    public class CommandsController : ControllerBase
     {
         private readonly ICommandRepo _repo;
         private readonly IMapper _mapper;
 
-        public CommandsController(ICommandRepo repo, IMapper mapper) 
+        public CommandsController(ICommandRepo repo, IMapper mapper)
         {
-            _repo= repo;
+            _repo = repo;
             _mapper = mapper;
         }
 
@@ -41,9 +41,9 @@ namespace CommandsService.Controllers
             {
                 return NotFound();
             }
-            
+
             var command = this._repo.GetCommandForPlatform(platformId, commandId);
-            if(command == null)
+            if (command == null)
             {
                 return NotFound();
             }
@@ -65,9 +65,10 @@ namespace CommandsService.Controllers
             this._repo.CreateCommandForPlatform(platformId, command);
             this._repo.SaveChanges();
 
+            Console.WriteLine($"--> Saved to db CreateCommandForPlatform:{platformId}");
             var commandReadDto = this._mapper.Map<CommandReadDto>(command);
-            return CreatedAtRoute(nameof(GetCommandForPlatform), 
-                new {PlatformID =  platformId, CommandID = commandReadDto.ID}, commandReadDto);
+            return CreatedAtRoute(nameof(GetCommandForPlatform),
+                new { PlatformID = platformId, CommandID = commandReadDto.ID }, commandReadDto);
         }
     }
 }

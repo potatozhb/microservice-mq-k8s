@@ -65,7 +65,7 @@ namespace PlatformService.AsyncDataServices
             Console.WriteLine("--> RabbitMQ Connection shutdown");
         }
 
-        public void Disposed()
+        public void Dispose()
         {
             Console.WriteLine("--> MessageBus Disposed");
             if (_channel.IsOpen)
@@ -74,5 +74,6 @@ namespace PlatformService.AsyncDataServices
                 _connection.Close();
             }
         }
+
     }
 }

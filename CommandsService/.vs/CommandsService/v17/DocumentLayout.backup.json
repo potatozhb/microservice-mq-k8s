@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\SSO\\microservice\\CommandsService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\asyncdataservices\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:asyncdataservices\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\eventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:eventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MessageBusSubscriber.cs",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\AsyncDataServices\\MessageBusSubscriber.cs",
+              "RelativeDocumentMoniker": "AsyncDataServices\\MessageBusSubscriber.cs",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\AsyncDataServices\\MessageBusSubscriber.cs",
+              "RelativeToolTip": "AsyncDataServices\\MessageBusSubscriber.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:28:22.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IEventProcessor.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\IEventProcessor.cs",
               "RelativeDocumentMoniker": "EventProcessing\\IEventProcessor.cs",
@@ -34,25 +51,24 @@
               "RelativeToolTip": "EventProcessing\\IEventProcessor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:52:26.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T23:52:26.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EventProcessor.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\EventProcessor.cs",
               "RelativeDocumentMoniker": "EventProcessing\\EventProcessor.cs",
               "ToolTip": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\EventProcessor.cs",
               "RelativeToolTip": "EventProcessing\\EventProcessor.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAzwDAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T23:52:23.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:51:40.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T23:51:40.506Z"
             }
           ]
         }

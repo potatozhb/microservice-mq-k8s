@@ -175,3 +175,4 @@ D:\SSO\microservice\PlatformService\obj\Debug\net8.0\PlatformService.genruntimec
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\ref\PlatformService.dll
 D:\sso\microservice\PlatformService\bin\Debug\net8.0\appsettings.Production.json
 D:\sso\microservice\platformservice\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\sso\microservice\platformservice\obj\Debug\net8.0\PlatformService.sourcelink.json

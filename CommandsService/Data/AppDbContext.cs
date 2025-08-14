@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using CommandsService.Models;
 
-namespace CommandService.Data
+namespace CommandsService.Data
 {
     public class AppDbContext : DbContext
     {
