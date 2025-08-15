@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sso\\microservice\\platformservice\\PlatformService.csproj": {}
+    "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\sso\\microservice\\platformservice\\PlatformService.csproj": {
+    "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sso\\microservice\\platformservice\\PlatformService.csproj",
+        "projectUniqueName": "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\sso\\microservice\\platformservice\\PlatformService.csproj",
+        "projectPath": "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\Aurora\\.nuget\\packages\\",
-        "outputPath": "D:\\sso\\microservice\\platformservice\\obj\\",
+        "outputPath": "D:\\sso\\microservice\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,24 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.31.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.72.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

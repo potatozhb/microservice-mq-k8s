@@ -39,10 +39,14 @@ namespace CommandsService.EventProcessing
             {
                 var repo = scope.ServiceProvider.GetRequiredService<ICommandRepo>();
                 var platformPublishDto = JsonSerializer.Deserialize<PlatformPublishDto>(platformPublishedMessage);
+                Console.WriteLine($"--> platformPublishDto ID: {platformPublishDto.Id}, event:{platformPublishDto.Event}, name:{platformPublishDto.Name}");
 
                 try
                 {
                     var plat = _mapper.Map<Platform>(platformPublishDto);
+
+                    Console.WriteLine($"--> new plat ID: {plat.ID}, exID: {plat.ExternalID}");
+
                     if (!repo.ExternalPlatformExists(plat.ExternalID))
                     {
                         repo.CreatePlatform(plat);
