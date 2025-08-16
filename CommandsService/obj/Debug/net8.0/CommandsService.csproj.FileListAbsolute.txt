@@ -139,3 +139,7 @@ D:\sso\microservice\commandsservice\bin\Debug\net8.0\AutoMapper.Extensions.Micro
 D:\SSO\microservice\CommandsService\bin\Debug\net8.0\RabbitMQ.Client.dll
 D:\SSO\microservice\CommandsService\bin\Debug\net8.0\appsettings.Production.json
 D:\SSO\microservice\CommandsService\obj\Debug\net8.0\CommandsService.sourcelink.json
+D:\SSO\microservice\CommandsService\bin\Debug\net8.0\Google.Protobuf.dll
+D:\SSO\microservice\CommandsService\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\SSO\microservice\CommandsService\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\SSO\microservice\CommandsService\bin\Debug\net8.0\Grpc.Net.Common.dll

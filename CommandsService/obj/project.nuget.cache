@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "PnvFGGJDUXs=",
+  "dgSpecHash": "7Fsbr+WC7Q4=",
   "success": true,
   "projectFilePath": "D:\\SSO\\microservice\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aurora\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aurora\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Aurora\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
+    "C:\\Users\\Aurora\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\Aurora\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\Aurora\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
+    "C:\\Users\\Aurora\\.nuget\\packages\\grpc.tools\\2.72.0\\grpc.tools.2.72.0.nupkg.sha512",
     "C:\\Users\\Aurora\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Aurora\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Aurora\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\SSO\\microservice\\CommandsService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\data\\prepdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:data\\prepdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\syncdataservices\\grpc\\platformdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:syncdataservices\\grpc\\platformdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\profiles\\commandsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:profiles\\commandsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\protos\\platforms.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:protos\\platforms.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\syncdataservices\\grpc\\iplatformdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:syncdataservices\\grpc\\iplatformdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\asyncdataservices\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:asyncdataservices\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\eventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:eventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\sso\\microservice\\commandsservice\\eventprocessing\\ieventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +46,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PrepDb.cs",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\Data\\PrepDb.cs",
+              "RelativeDocumentMoniker": "Data\\PrepDb.cs",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\Data\\PrepDb.cs",
+              "RelativeToolTip": "Data\\PrepDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T03:16:12.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandsProfile.cs",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\Profiles\\CommandsProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\CommandsProfile.cs",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\Profiles\\CommandsProfile.cs",
+              "RelativeToolTip": "Profiles\\CommandsProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T21:59:20.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlatformDataClient.cs",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\SyncDataServices\\Grpc\\PlatformDataClient.cs",
+              "RelativeDocumentMoniker": "SyncDataServices\\Grpc\\PlatformDataClient.cs",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\SyncDataServices\\Grpc\\PlatformDataClient.cs",
+              "RelativeToolTip": "SyncDataServices\\Grpc\\PlatformDataClient.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T21:58:09.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "platforms.proto",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\Protos\\platforms.proto",
+              "RelativeDocumentMoniker": "Protos\\platforms.proto",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\Protos\\platforms.proto",
+              "RelativeToolTip": "Protos\\platforms.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-08-15T22:00:59.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPlatformDataClient.cs",
+              "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\SyncDataServices\\Grpc\\IPlatformDataClient.cs",
+              "RelativeDocumentMoniker": "SyncDataServices\\Grpc\\IPlatformDataClient.cs",
+              "ToolTip": "D:\\SSO\\microservice\\CommandsService\\SyncDataServices\\Grpc\\IPlatformDataClient.cs",
+              "RelativeToolTip": "SyncDataServices\\Grpc\\IPlatformDataClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T21:54:53.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MessageBusSubscriber.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\AsyncDataServices\\MessageBusSubscriber.cs",
               "RelativeDocumentMoniker": "AsyncDataServices\\MessageBusSubscriber.cs",
@@ -38,12 +120,11 @@
               "RelativeToolTip": "AsyncDataServices\\MessageBusSubscriber.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T03:28:22.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T03:28:22.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IEventProcessor.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\IEventProcessor.cs",
               "RelativeDocumentMoniker": "EventProcessing\\IEventProcessor.cs",
@@ -55,28 +136,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EventProcessor.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\EventProcessor.cs",
               "RelativeDocumentMoniker": "EventProcessing\\EventProcessor.cs",
               "ToolTip": "D:\\SSO\\microservice\\CommandsService\\EventProcessing\\EventProcessor.cs",
               "RelativeToolTip": "EventProcessing\\EventProcessor.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAADAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAABKwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:52:23.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T23:52:23.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SSO\\microservice\\CommandsService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\SSO\\microservice\\CommandsService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T23:51:40.506Z"
+              "WhenOpened": "2025-08-13T23:51:40.506Z",
+              "EditorCaption": ""
             }
           ]
         }
