@@ -1,8 +1,10 @@
-Next idea:
+Keep working on:
 1. Introduce HTTPS/TLS between services
 2. Refactor Event Processor
 3. More elaborate use-case
 4. Service Discovery
+5. Authentication and authorization
+6. Multiple cluster release
 
 c# services docker + k8s
 Architecture
