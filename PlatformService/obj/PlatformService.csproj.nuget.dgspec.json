@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj": {}
+    "d:\\SSO\\microservice\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj": {
+    "d:\\SSO\\microservice\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "d:\\SSO\\microservice\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\sso\\microservice\\PlatformService\\PlatformService.csproj",
+        "projectPath": "d:\\SSO\\microservice\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\Aurora\\.nuget\\packages\\",
-        "outputPath": "D:\\sso\\microservice\\PlatformService\\obj\\",
+        "outputPath": "d:\\SSO\\microservice\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

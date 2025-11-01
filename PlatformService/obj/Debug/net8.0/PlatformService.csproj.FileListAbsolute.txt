@@ -161,12 +161,6 @@ D:\SSO\microservice\PlatformService\obj\Debug\net8.0\scopedcss\bundle\PlatformSe
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets.build.json
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets.development.json
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets\msbuild.PlatformService.Microsoft.AspNetCore.StaticWebAssets.props
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets\msbuild.PlatformService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets\msbuild.build.PlatformService.props
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PlatformService.props
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PlatformService.props
-D:\SSO\microservice\PlatformService\obj\Debug\net8.0\staticwebassets.pack.json
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\Platform.C7468C4A.Up2Date
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\PlatformService.dll
 D:\SSO\microservice\PlatformService\obj\Debug\net8.0\refint\PlatformService.dll
@@ -183,3 +177,8 @@ D:\sso\microservice\platformservice\bin\Debug\net8.0\Grpc.Core.Api.dll
 D:\sso\microservice\platformservice\bin\Debug\net8.0\Grpc.Net.Client.dll
 D:\sso\microservice\platformservice\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 D:\sso\microservice\platformservice\bin\Debug\net8.0\Grpc.Net.Common.dll
+D:\SSO\microservice\platformservice\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\SSO\microservice\platformservice\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\SSO\microservice\platformservice\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\SSO\microservice\platformservice\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\SSO\microservice\platformservice\obj\Debug\net8.0\staticwebassets.build.json.cache

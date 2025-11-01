@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.AsyncDataServices;
 using PlatformService.Data;
+using PlatformService.Middleware;
 using PlatformService.Repos;
 using PlatformService.SyncDataServices.Grpc;
 using PlatformService.SyncDataServices.Http;
@@ -49,6 +50,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<JsonFormatMiddleware>();
 //app.UseHttpsRedirection();
 
 app.MapControllers();
