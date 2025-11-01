@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "D:\\SSO\\microservice\\PlatformService\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-13T06:17:41.299Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "PlatformService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-21T19:58:46.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T19:58:46.215Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "ToolTip": "D:\\SSO\\microservice\\PlatformService\\PlatformService.csproj",
               "RelativeToolTip": "PlatformService.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-21T19:58:25.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T19:58:25.307Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Repos\\PlatformRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBTwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T22:12:00.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T22:12:00.612Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAABKwA8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T22:10:21.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T22:10:21.08Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "Controllers\\PlatformsController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA1wBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T22:09:50.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T22:09:50.964Z"
             },
             {
               "$type": "Document",
@@ -127,8 +122,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-20T22:08:34.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T22:08:34.884Z"
             }
           ]
         }

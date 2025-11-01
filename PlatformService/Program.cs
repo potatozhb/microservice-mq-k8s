@@ -50,7 +50,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<RateLimitMiddleware>();
+app.UseMiddleware<AuthMiddleware>();
 app.UseMiddleware<JsonFormatMiddleware>();
+
 //app.UseHttpsRedirection();
 
 app.MapControllers();

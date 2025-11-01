@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0xy1sDV4E0=",
+  "dgSpecHash": "P5xvntdkBMw=",
   "success": true,
-  "projectFilePath": "d:\\SSO\\microservice\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "D:\\SSO\\microservice\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aurora\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aurora\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

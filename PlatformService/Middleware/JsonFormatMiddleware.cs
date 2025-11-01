@@ -1,6 +1,5 @@
 
 using System.Text.Json;
-using Grpc.Core;
 
 namespace PlatformService.Middleware
 {
