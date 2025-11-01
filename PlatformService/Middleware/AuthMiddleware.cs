@@ -23,6 +23,7 @@ namespace PlatformService.Middleware
                 }
             }
             await _next(context);
+
         }
     }
 }

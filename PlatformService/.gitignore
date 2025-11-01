@@ -1,0 +1,29 @@
+# Build folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Visual Studio cache
+.vs/
+
+# Dependency folders
+packages/
+node_modules/
+
+# Configuration or secrets
+appsettings.Development.json
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
