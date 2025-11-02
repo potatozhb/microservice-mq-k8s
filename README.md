@@ -1,11 +1,12 @@
 Keep working on:
 1. Introduce HTTPS/TLS between services
-2. Refactor Event Processor
-3. Use Flink on log real time and batch analysis
-4. More elaborate use-case
-5. Service Discovery
-6. Authentication and authorization
-7. Multiple cluster release
+2. Add a service to receive commands from all platforms.
+3. Add Kafka to pub/sub for commands and platforms.
+4. Use Flink on log real time and batch analysis
+5. More elaborate use-case
+6. Service Discovery
+7. Authentication and authorization
+8. Multiple cluster release
 
 c# services docker + k8s
 Architecture
