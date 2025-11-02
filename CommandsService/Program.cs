@@ -15,6 +15,9 @@ builder.Services.AddScoped<ICommandRepo, CommandRepo>();
 builder.Services.AddScoped<IPlatformDataClient, PlatformDataClient>();
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IEventProcessor, EventProcessor>();
+builder.Services.AddSingleton<IEventHandler, PlatformPublishedHandler>();
+builder.Services.AddSingleton<IEventHandler, AnotherEventHandler>();
+
 builder.Services.AddHostedService<MessageBusSubscriber>();
 
 builder.Services.AddSwaggerGen();

@@ -17,6 +17,7 @@ namespace PlatformService.SyncDataServices.Grpc
 
         public override Task<PlatformResponse> GetAllPlatforms(GetAllRequest request, ServerCallContext context)
         {
+            Console.WriteLine("--> Grpc service GetAllPlatforms");
             var response = new PlatformResponse();
             var platforms = _repo.GetAllPlatforms();
 

@@ -9,59 +9,25 @@ namespace CommandsService.EventProcessing
 {
     public class EventProcessor : IEventProcessor
     {
-        private readonly IServiceScopeFactory _scopeFactory;
-        private readonly IMapper _mapper;
+        private readonly Dictionary<EventType, IEventHandler> _handlers;
 
-        public EventProcessor(IServiceScopeFactory scopeFactory, IMapper mapper)
+        public EventProcessor(IEnumerable<IEventHandler> handlers)
         {
-            _scopeFactory = scopeFactory;
-            _mapper = mapper;
-
+            _handlers = handlers.ToDictionary(h => h.EventType, h => h);
         }
+
         public void ProcessEvent(string message)
         {
             Console.WriteLine($"--> Processing event: {message}");
             var eventType = DetermineEvent(message);
-            switch (eventType)
+            
+            if(_handlers.TryGetValue(eventType, out var handler))
             {
-                case EventType.PlatformPublished:
-                    addPlatform(message);
-                    break;
-                default:
-
-                    break;
+                handler.Handle(message);
             }
-        }
-
-        private void addPlatform(string platformPublishedMessage)
-        {
-            using (var scope = _scopeFactory.CreateScope())
+            else
             {
-                var repo = scope.ServiceProvider.GetRequiredService<ICommandRepo>();
-                var platformPublishDto = JsonSerializer.Deserialize<PlatformPublishDto>(platformPublishedMessage);
-                Console.WriteLine($"--> platformPublishDto ID: {platformPublishDto.Id}, event:{platformPublishDto.Event}, name:{platformPublishDto.Name}");
-
-                try
-                {
-                    var plat = _mapper.Map<Platform>(platformPublishDto);
-
-                    Console.WriteLine($"--> new plat ID: {plat.ID}, exID: {plat.ExternalID}");
-
-                    if (!repo.ExternalPlatformExists(plat.ExternalID))
-                    {
-                        repo.CreatePlatform(plat);
-                        repo.SaveChanges();
-                        Console.WriteLine($"--> Platform added");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"--> Platform alredy exists...");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"--> Could not add platform to DB , {ex.Message}");
-                }
+                Console.WriteLine($"--> No handler registered for {eventType}");
             }
         }
 
@@ -82,9 +48,4 @@ namespace CommandsService.EventProcessing
         }
     }
 
-    enum EventType
-    {
-        PlatformPublished,
-        Undetermined
-    }
 }

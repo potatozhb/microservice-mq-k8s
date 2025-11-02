@@ -12,13 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
-// if (builder.Environment.IsDevelopment())
-// {
-//     Console.WriteLine("--> Using InMem Db");
-//     builder.Services.AddDbContext<AppDbContext>(options =>
-//         options.UseInMemoryDatabase("InMemoryDb"));
-// }
-// else
+if (builder.Environment.IsDevelopment())
+{
+    Console.WriteLine("--> Using InMem Db");
+    builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseInMemoryDatabase("InMemoryDb"));
+}
+else
 {
     Console.WriteLine("--> Using SqlServer Db");
     builder.Services.AddDbContext<AppDbContext>(options =>
